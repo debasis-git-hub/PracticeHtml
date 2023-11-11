@@ -1,0 +1,11 @@
+.text-center{
+    text-align: center;
+}
+.container{
+    /* background:red; */
+    margin: auto;
+    /* max-width: 14vw; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div style="text-align: center;text-decoration:red">ADMISSION FORM</div>
+    <div class="container">
+       
+        <input type="text" class="form-control" name="address" id="address" placeholder="Enter Your Address">
+    </div>
+    <script>
+        // document.write("Debasis behera");
+        // console.log("hello world");
+    //    console.warn("alert");
+        // console.error("error");
+        // var a=23;
+        // var b=12;
+        // document.write("sum="+(a+b));
+        // //Data type in js
+        // var n1=23;
+        // var n2=45;
+        // //string
+        // var str1="this is a string";
+        // var str2="this is a 2nd string";
+        //object
+        // var mark={ravi:3,
+        //     raban:35,
+        //     harry:44}  
+        // console.log(mark);
+        // let val="Debasis";
+        //   console.log(val[b]);
+        // console.log(val.length);
+        //  val=val.trim();//it remove the space
+        // console.log(val);
+        // console.log(val.length);  
+// console.log(val.toUpperCase());
+// console.log(val.toLowerCase());
+// let newString=val.slice(0,5);
+// let newtring=val.slice(5);
+// console.log(newtring);
+// console.log(newString);
+//typeof value
+// let age=22;
+// let firstname="debasis";
+//  console.log(typeof age);
+// console.log(typeof (age+""));
+// let mystr=+"3";
+// console.log(typeof (mystr));
+//convert number to string
+// let ae=18;
+// ae=String(ae);
+// console.log(typeof ae);
+//convert string to number
+// let a="12";
+// a=Number(a);
+// console.log(typeof a);
+//concart string to  string
+// let string1="12";
+// let string2="13";
+// let fullname=string1+" "+string2;
+// console.log(fullname);
+// let Fullname=+string1 + +string2;
+// console.log( Fullname);
+// console.log(typeof Fullname);
+// templet string
+// let name="subha";
+// let bayasa=22;
+// let about=`my name is ${name} & my age is ${bayasa}`;
+// console.log(about);
+//Big int
+// let mynum=BigInt(12);
+// let smnu=123n;
+// console.log(mynum+smnu);
+// let n=3;
+// let m="8";
+// console.log(n==m);
+// if..else
+// let fname=18;
+// if(fname>=18){
+//     console.log("elesible");
+// }
+// else{
+//     console.log("failed");
+// }
+//ternary operater/conditional operator
+// let ag=prompt("Enter the age");
+// let drink=ag>=5?"coffe":"milk";
+// console.log(drink);
+//&& ||
+// let fname=prompt("Enter name");
+// let age=prompt("Enter age");
+// if(fname[0]=="D" && age>=21){
+//     console.log("This is yous card ");
+// }
+// else{
+//     console.log("chall mgh");
+// }
+//
+// let age=34;
+// let guess=prompt("Enter the guess num");
+// if(guess==age){
+//     console.log("Perfect guess");
+// }
+// else{
+//     if(guess>age){
+//         console.log("guess is high");
+//     }
+//     else{
+//         console.log("low");
+//     }
+// }
+//if..else..if
+// let num=prompt("Enter the number:");
+// if(num==0){
+//     console.log("Sunday");
+// }
+// else if(num==1){
+//     console.log("Monday");
+// }
+// else if(num==2){
+//     console.log("Tuesday");
+// }
+// else if(num==3){
+//     console.log("wednesday");
+// }
+// else if(num==4){
+//     console.log("thurseday");
+// }
+// else if(num==5){
+//     console.log("Friday");
+// }
+// else if(num==6){
+//     console.log("suturday");
+// }
+// else{
+//     console.log("wrong press");
+// }
+//loop
+//while..loop
+//sum of n num
+// let num=4;
+// let i=0;
+// let sum=0;
+// while(i<=num){
+//     sum=sum+i;
+//     i++;}
+//     console.log(sum);
+    //For..loop
+    // let num=prompt("Enter the num");
+    // let sum=0;
+    // for(var i=0;i<=num;i++){
+    //     sum=sum+i;
+    //     // console.log(sum);
+    // }
+    // console.log("The sum is",sum);
+    //array
+    //  const cars=["BMW","VOLVO","FORD","FIAT","AUDI"];
+    //   console.log(typeof cars);
+    // console.log(Array.isArray(cars));
+    // cars.push("sujuki");
+    // console.log(cars);
+    // let pcar= cars.pop();
+    // console.log(cars);
+    // console.log("remove is",pcar);
+    // cars.unshift("luna");
+    // console.log(cars);
+    //  cars.shift("volvo");
+    //  console.log(cars);
+   // premitive and reference datatype
+    // let arr1=["i1","i2"];
+    //  let arr2=arr1;
+    // console.log(arr1);
+    // console.log(arr2);
+    //  arr1.push("i3");
+    // console.log("After pushing the element in arr1");
+    // console.log(arr1);
+    // console.log(arr2);
+    // console.log(arr1==arr2);
+    // arr2.pop(arr2[0]);
+    // console.log(arr2);
+    // console.log(arr1);
+    // let arr2=[...arr1];
+// console.log(arr1===arr2);
+// console.log(arr1);
+// console.log(arr2);
+//    let fruit=["apple","graps","orange"];
+//    let fruit2=["banana"];
+//    for (let i = 0; i < fruit.length; i++) {
+//     console.log(fruit[i]);
+//     fruit2.push(fruit[i]);
+//     console.log(fruit[i]);
+    
+//    }
+//    console.log(fruit2);
+//arry destructuring
+// const myArry=["val1","val2"];
+// let myval1=myArry[0];
+// let myval2=myArry[1];
+// console.log("value of val1",myval1);
+// console.log("value of val1",myval2);
+// let [myval1,myval2]=myArry;
+// console.log("value of val1",myval1);
+// console.log("value of val1",myval2);
+//oject reference type
+// const person={name:"Debasis",age:22,hobbise:["plying","singing","studing"]};
+// person.Email="debasisbehera0852@gmal.com";
+// console.log(person);
+// console.log(person["name"]);
+// how to itterate object
+// for(let key in person){
+    //  console.log(key);//for only key
+    // console.log(person[key]);//for key value
+    // console.log(`${key}:${person[key]}`);
+// }
+//computed properties
+// const key1="objval1";
+// const key2="objval2";
+// const val1="myval1";
+// const val2="myval2";
+// const obj={
+//     objval1:"myval1",
+//     objval2:"myval2"
+// }
+// console.log(obj);
+//spread operator
+// const arr1=[1,2,3];
+// const arr2=[4,5,6];
+
+// const narr=[...arr1,...arr2, 78];
+// console.log(narr);
+// const arr=[..."abc"];
+// console.log(arr);
+//spread operator in object
+//object destructuring
+// const band={
+//     bandname:"sagersangam",
+//     famoussong:"ribamfita",
+//     singer:"humanSagar"
+// }
+// let{bandname,famoussong,...restprops}=band;
+// console.log(bandname);
+// console.log(restprops);
+// const users=[user1={userid:01,firstname:"debasis",gender:"male"},
+// user2={userid:02,firstname:"sonu",gender:"male"},
+// {userid:03,firstname:"avi",gender:"male"},
+// ]
+// for(let user of users){
+//     console.log(user1.userid,user2.firstname);
+//      console.log(user.userid);//perticular object
+//      nested destructuring
+// }
+// function sum(num1,num2) {
+//     return num1+num2;
+// }
+// const returnValue=sum(4,5);
+// console.log(returnValue);
+// function
+// function isEven(num){
+//     if(num%2==0){
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// }
+// document.write(isEven(3));
+//function
+// input:sting
+// output:firstcharacter
+// function string(anyString){
+//     return anyString[0];
+// }
+// console.log(string("abc"));
+// Function(Array target number)
+// function findTarget(array,target) {
+// for (let i = 0; i < array.length; i++) {
+//     if(array[i]===target){
+//         return i;
+//     }
+// }  
+// return -1;  
+// }
+// const myArry=[1,2,3,4];
+// const ans=findTarget(myArry,5);
+// console.log(ans);
+//function expression
+// const arr=function(){
+//     console.log("happy BirthDay");
+// }
+// arr();
+// arrow function
+// const arr=()=>{
+//     console.log("happy BirthDay");
+// }
+// arr();
+// const isEven=(number)=>{
+//     return number%2===0;
+// }
+// console.log(isEven(3));
+// const isEven=num=>num%2===0;
+// console.log(isEven(6));
+// function app(){
+//     const sum=(a,b)=>{
+//        return  a+b;
+//     }
+//     const mul=(num1,num2)=>{
+//         return num1*num2;
+//     }
+//     console.log(sum(4,5));
+//     console.log(mul(2,4));
+// }
+// app();
+// const firstname="debasis";
+// const myapp=()=>{
+//     if(true){
+//         const firstname="debasis";
+//         console.log(firstname);
+//     }
+//     if(true){
+//         console.log(firstname);
+//     }
+//     console.log(firstname);
+// }
+// myapp();
+// const even=(num)=>{
+//     return num%2===0;
+// }
+// console.log(even(7));
+// default parameter
+// function addtwo(a,b=5){
+//     // if(typeof b==="undefind"){
+//     //     b=0;
+//     // }
+//     return a+b;
+// }
+// console.log(addtwo(2));
+// function myFun(a,b,...c){
+//     console.log(`a is ${a}`)
+//     console.log(`b is ${b}`)
+//     console.log(`c is `,c)
+// }
+// myFun(3,4,5,7,8,9,0);
+// function addAll(...numbers){
+//     let total=0;
+//     for(let number of numbers){
+//         total=total+number;
+//     }
+//     // for (let i = 0; i <= numbers.length; i++) {
+//     //     total=total+i;
+        
+//     // }
+//     return total;
+// }
+// const ans=addAll(2,3,4,5,6);
+// console.log(ans);
+// function bio(){
+//     name:"debasis";
+//     age:22;
+// }
+// console.log();
+//function expression
+// const sumThreenumber=function(num1,num2,num3){
+//     return num1+num2+num3;
+// }
+// const ans=sumThreenumber(1,2,3);
+// console.log(ans);
+//even by function expression
+// const isEven=function(num){
+//     return true;
+// }
+// console.log(isEven(5));
+// function inside function
+
+    </script>
+    <!-- <script src="functioninsidefunction.js"></script> -->
+    <!-- <script src="lexicalscope.js"></script> -->
+    <!-- <script src="blockscope.js"></script> -->
+    <!-- <script src="defaultparameter.js"></script> -->
+    <!-- <script src="restparameter.js"></script> -->
+    <!-- <script src="paramdestructuring.js"></script> -->
+    <!-- <script src="callbackfun.js"></script> -->
+    <!-- <script src="returningfun.js"></script> -->
+    <!-- <script src="important_array_method.js"></script> -->
+    <!-- <script src="map_method.js"></script> -->
+    <!-- <script src="filter_method.js"></script> -->
+    <!-- <script src="reduce_method.js"></script> -->
+    <!-- <script src="sort_method.js"></script> -->
+    <script src="find_methode.js"></script>
+</body>
+</html>
